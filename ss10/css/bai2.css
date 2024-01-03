@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    height: 56px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+.header-list-item {
+    display: flex;
+    gap: 20px;
+
+}
+.header-item {
+    list-style: none;
+    color: #fff;
+}
+
+.fa-magnifying-glass{
+    color: #001EFF;
+    }

@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .item {
+    width: 250px;
+    height: 100vh;
+    background-color: #f0f0f0; 
+    margin: 4px;
+    padding: 8px 16px;
+    box-sizing: border-box;
+  }
+  
+  .icon {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .active {
+    background-color: #c0c0c0; 
+  }
+  

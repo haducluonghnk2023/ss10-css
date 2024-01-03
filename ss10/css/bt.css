@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+/* reset css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container{
+    background-image: url("https://i.pinimg.com/originals/15/1d/46/151d46dc17a1084c9fb050e2d80c031c.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: #fff;
+    padding: 20px 24px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.form-heading {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.form-label {
+    font-weight: 700;
+}
+
+.form-input {
+    height: 36px;
+    padding: 0 16px;
+    outline: none;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+}
+.form-input:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.form-input:focus{
+    border-bottom: blue;
+
+}
+
+.button {
+    height: 36px;
+    padding: 0 36px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+}
+.button-blue {
+    background: blue;
+    color: #fff;
+}
+
+.redirict {
+    text-align: center;
+    margin-top: 24px;
+
+}
+
+
+
+
+
