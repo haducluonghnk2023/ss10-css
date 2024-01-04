@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px;
+    margin: 0;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.m {
+    height: 30px;
+    background-color: orange;
+    position: relative;
+}
+
+.m::before {
+    content: "";
+    display: block;
+    height: 100%;
+    background-color: #337ab7;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.percentage {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
